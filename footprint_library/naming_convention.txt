@@ -1,0 +1,8 @@
+Integrated Circuit
+<Case><PadNum>_<Width>x<Length>_<PadWidth><PadLegth>_<SMT/THU>
+Connector
+<SMT/THR>_<POS>_<Column>x<Row>
+Passive_Component
+<R/L/C>_<CaseNum_in>_<SMT/THR>
+SIP Package
+SIP<HoleNum>_<Width>x<Length>_<Pin1_to_Width>x<Pin1_to_Length>

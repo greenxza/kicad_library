@@ -1,0 +1,21 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Voltage_Test_Point
+#
+DEF Voltage_Test_Point TP 0 40 Y Y 1 F N
+F0 "TP" 150 150 60 H V C CNN
+F1 "Voltage_Test_Point" 500 -150 60 H V C CNN
+F2 "" 650 -350 60 H I C CNN
+F3 "" 650 -350 60 H I C CNN
+DRAW
+C 0 0 112 0 1 0 N
+P 2 0 1 0 -25 -50 25 -50 N
+P 2 0 1 0 -25 50 25 50 N
+P 2 0 1 0 0 75 0 25 N
+X ~ 1 0 200 88 D 50 50 1 1 P
+X ~ 2 0 -200 88 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
